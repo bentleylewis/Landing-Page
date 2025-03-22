@@ -4,3 +4,28 @@ body {
 
 }
 
+.header{
+   /* color: white;*/
+    display: flex;
+    flex-direction: column;
+    /*background-color: #000000;*/
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.cardSection{
+    background-color: #0c1821;
+}
+
+
+.quoteSection {
+    background-color: #1b2a41;
+}
+
+.footer {
+    background-color: #324a5f;
+
+}
