@@ -25,10 +25,37 @@ ul {
     justify-content: space-around;
     gap:16px;
 }
+
 a{
     text-decoration: none;
     color: white;
 }
+
+.titleSection {
+    display:flex;
+    justify-content: space-evenly;
+    margin: 25px;
+}
+
+.titleContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    
+}
+
+.title{
+    font-weight: bold;
+    font-size: 32px;
+    max-width: 250px;
+}
+
+.subtext {
+    font-size: 16px;
+    color: rgb(201, 198, 198);
+    max-width: 250px;
+}
+
 
 
 .cardSection{
