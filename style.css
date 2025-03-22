@@ -67,8 +67,41 @@ a{
 
 .cardSection{
     background-color: #0c1821;
+    color: rgb(103, 116, 191);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
 }
 
+.secondHeader {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 20px;
+}
+
+
+.cardbox {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.text {
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 50px;
+}
+.info {
+    max-width: 200px;
+}
+
+.square {
+    background-color: white;
+    width: 125px;
+    height:125px;
+    border-radius: 16px;
+}
 
 .quoteSection {
     background-color: #1b2a41;
