@@ -13,7 +13,7 @@ body {
 
 .headContainer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 4px;
 }
@@ -33,7 +33,7 @@ a{
 
 .titleSection {
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin: 25px;
 }
 
