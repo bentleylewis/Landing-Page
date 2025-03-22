@@ -5,16 +5,31 @@ body {
 }
 
 .header{
-   /* color: white;*/
+    color: white;
     display: flex;
     flex-direction: column;
-    /*background-color: #000000;*/
+    background-color: #5d5c5c;
 }
 
-ul {
-    text-decoration: none;
-    list-style-type: none;
+.headContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
 }
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    gap:16px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
 
 .cardSection{
     background-color: #0c1821;
