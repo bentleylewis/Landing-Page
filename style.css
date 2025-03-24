@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    
 
 }
 
@@ -128,7 +129,27 @@ a{
     margin-top: 20px;
 }
 
-.footer {
-    background-color: #324a5f;
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
 
+}
+
+.footHeader {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footWrapper {
+    background-color: #324a5f;
+    margin: 30px 70px 30px 70px;
+    padding: 30px 300px 30px 300px;
+    border-radius: 6px;
+    
+}
+
+
+.footButton button {
+    display: inline-block;
 }
