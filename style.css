@@ -11,16 +11,24 @@ body {
     color: white;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     background-color: #1b2a41;
     flex-grow: .5;
 }
 
+.logo img{
+     width: 80px;
+     height: 80px;
+     border-radius: 50%;
+     object-fit: cover;
+}
+
 .headContainer {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 550px;
     align-items: top;
     padding: 4px;
-    flex-grow:.25;
     
 }
 
@@ -39,9 +47,9 @@ a{
 
 .titleSection {
     display:flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 500px;
     align-items: center;
-    margin: 25px;
 }
 
 .titleContainer {
